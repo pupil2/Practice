@@ -1,0 +1,28 @@
+What is Carbanak?
+Carbanak is the name we use for an APT-style campaign targeting (but not limited to) financial institutions. The main difference with other APT attacks is that attackers do not see data but money as their primary target. We say APT-like, however the attack is not strictly speaking Advanced. Strictly speaking, the main feature defining the attackers is Persistence.
+We name the backdoor Carbanak since it is based on Carberp and the name of the configuration file is “anak.cfg”.
+What are the malicious purposes of this campaign?
+The attackers infiltrate the victim's network looking for the critical system they can use for cashing money out. Once they have stolen a significant amount of money (from 2.5 to 10 MM USD per entity), they abandon the victim.
+Why do you think it is significant?
+Banking entities have always been a primary target for cybercriminals. However it was almost always through their customers. This time attackers are targeting financial entities directly in an unprecedented, determined, highly professional and coordinated attack, and using any means from the target to cash as much money out as possible, up to an apparently auto-imposed limit.
+Can you explain the timeline of the campaign?
+According to what we know, the first malicious samples were compiled in August, 2013 when the cybercriminals started to test the Carbanak malware. The first infections were detected in December, 2013.
+On average, each bank robbery took between two and four months, from infecting the first computer at the bank's corporate network to cashing the money out.
+We believe that the gang was able to successfully steal from their first victims during the period of February-April 2014. The peak of infections was recorded in June 2014.
+Currently the campaign is still active.
+Why didn't you make the details public until now?
+Since we started working on this campaign we have collaborated with the different LEAs involved in the investigation and helped them as much as possible. As it remains an open investigation, we were asked not to share any details until it was safe to do so.
+Have you reached victims and Computer Emergency Response Teams (CERTs) in those countries where you have detected the incidents?
+Yes, this investigation turned into a joint operation between Kaspersky Lab’s Global Research and Analysis Team and international organizations, national and regional law enforcement agencies and a number of Computer Emergency Response Teams (CERTs) worldwide.
+One of our main goals was to disseminate our knowledge of the campaign and IOCs among all detected and potential victims. We used national CERTs and LEAs as the distribution channel.
+How did you contribute to the investigation?
+We're helping to assist in investigations and countermeasures that disrupt malware operations and cybercriminal activity. During the investigations we provide technical expertise such as analyzing infection vectors, malicious programs, supported Command & Control infrastructure and exploitation methods.
+How was the malware distributed?
+Attackers used spear phishing emails with malicious attachments against employees of the targeted financial institutions, in some cases sending them to their personal email addresses. We believe the attackers also used drive by download attacks, but this second assumption is still not 100% confirmed.
+How are corporate users protected against this type of attack?
+Yes, we detect Carbanak samples as Backdoor.Win32.Carbanak and Backdoor.Win32.CarbanakCmd.
+All Kaspersky Lab's corporate products and solutions detect known Carbanak samples. To raise the level of protection, it is recommended to switch on Kaspersky’s Proactive Defense Module included in each modern product and solution.
+We also have some general recommendations:
+Do not open suspicious emails, especially if they have an attachment;
+Update your software (in this campaign no 0days were used);
+Turn on heuristics in your security suites, this way it is more likely that such new samples will be detected and stopped from the beginning.
